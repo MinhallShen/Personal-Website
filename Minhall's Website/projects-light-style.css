@@ -1,0 +1,154 @@
+
+body {
+	background-color: white;
+}
+
+#head:hover {
+	color: #0D91E7;
+	transition: 0.5s;
+}
+.container {
+	background-color: #D4E6F1;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Fira Sans, sans-serif;
+
+}
+
+
+.header {
+	padding: 20px;
+	background-color: #D4E6F1;
+	color: black;
+	text-align: center;
+}
+
+.content {
+	padding: 10px;
+}
+
+.nav {
+	width: 175px;	
+	float: left;
+	padding: 10px;
+	background-color: white;
+	margin-left: 20px;
+	position: fixed;
+	border-radius: 8px;
+}
+
+.nav ul {
+	list-style-type: none;
+	padding: 0;
+	color: black;
+	font-size: 25px;
+	line-height: 200%;
+}
+
+.main {
+	width: 600px;
+	float: right;
+	margin-right: 300px;
+	color: black;
+	margin-bottom: 50px;
+}
+
+h1 {
+	margin: 0;
+	color: black;
+	font-size: 40px;
+}
+h2 {
+	margin: 0;
+	color: black;
+	font-size: 30px;
+}
+
+h3, h4, h5, h6, h7 {
+	margin: 0;
+	color: #F14E4E;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.footer {
+	clear: both;
+	text-align: right;
+	padding: 10px;
+	background-color: #D4E6F1;
+	color: black;
+}
+
+.search-box {
+	position: absolute;
+	top: 4%;
+	left: 11%;
+	transform: translate (-50%, -50%);
+	background: #AEB6BF;
+	height: 30px;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.search-box:hover > .search-txt {
+	width: 120px;
+	padding: 0 6px;
+	transition: 0.4s;
+}
+
+.search-btn {
+	color: black;
+	float: right;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #AEB6BF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-txt {
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 30px;
+	width: 0px;
+}
+
+#head {
+	color: black;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #00C67E;
+	transition: 0.5s;
+}
+
+
+#proj {
+	list-style: none;
+}
+
+#hyperlink{
+	color: #4E93F1;
+}
+
+#hyperlink:hover {
+	color: #00C67E;
+	transition: 0.5s;
+}
+p{
+	line-height: 150%;
+}
+
